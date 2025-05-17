@@ -26,7 +26,7 @@ export default function WhoWeAre() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold text-white mb-4"
           >
-            Who We Are
+            நாங்கள் யார்
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export default function WhoWeAre() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg text-amber-50 max-w-2xl"
           >
-            Discover the heart behind Yatra’s Cooking Cave, crafting authentic Tamil meals with love and tradition.
+            அன்பும் பாரம்பரியமும் கொண்ட உண்மையான தமிழ் உணவுகளை உருவாக்கும் யாத்ரா’ஸ் குக்கிங் கேவின் இதயத்தை கண்டறியுங்கள்.
           </motion.p>
         </div>
       </section>
@@ -50,21 +50,18 @@ export default function WhoWeAre() {
                 transition={{ duration: 0.5 }}
                 className="text-3xl font-bold text-amber-900 mb-6"
               >
-                Our Mission
+                எங்கள் நோக்கம்
               </motion.h2>
               <div className="w-24 h-1 bg-amber-600 mb-6"></div>
               <div className="space-y-4 text-amber-800">
                 <p>
-                  At Yatra’s Cooking Cave, our mission is to bring the warmth of Tamil home cooking to your table, using
-                  organic ingredients and traditional recipes.
+                 யாத்ரா’ஸ் குக்கிங் கேவ்-இல், இயற்கை பொருட்கள் மற்றும் பாரம்பரிய சமையல் முறைகளைப் பயன்படுத்தி, தமிழ் வீட்டு சமையலின் பாசத்தை உங்கள் மேசைக்கு கொண்டு செல்லுவதே எங்கள் பணி ஆகும்.
                 </p>
                 <p>
-                  Founded by Gayathri Priya, we aim to preserve the rich flavors of Tamil Nadu, from Thatta Payiru Biriyani
-                  to Ragi Kalli, while promoting healthy, homemade meals.
+                  காயத்ரி பிரியா துரை நிறுவிய யாத்ரா’ஸ் குக்கிங் கேவ், தட்டைப் பயறு பிரியாணி முதல் ராகி களி வரை தமிழ் நாட்டின் செழிப்பான சுவைகளை பாதுகாப்பதுடன், ஆரோக்கியமான வீட்டு உணவுகளையும் மேம்படுத்துவதே எமது நோக்கமாகும்.
                 </p>
                 <p>
-                  We strive to create joyful dining experiences for daily tiffins and special events, delivering authenticity
-                  and care in every bite.
+                  தினசரி டிபன்களுக்கும் சிறப்பு நிகழ்வுகளுக்கும் மகிழ்ச்சிகரமான உணவு அனுபவத்தை உருவாக்க, ஒவ்வொரு உணவிலும் உண்மையையும் அக்கறையையும் வழங்க நாங்கள் முயற்சிக்கிறோம்.
                 </p>
               </div>
             </div>
@@ -89,7 +86,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Meet Gayathri Priya
+              காயத்ரி பிரியா துரை சந்திக்கவும்
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -98,7 +95,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              The passionate home chef behind Yatra’s Cooking Cave
+              யாத்ரா’ஸ் குக்கிங் கேவின் பின்னணி ஆர்வமிக்க வீட்டு சமையல்காரி
             </motion.p>
           </div>
 
@@ -118,12 +115,10 @@ export default function WhoWeAre() {
                   />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-amber-900">Gayathri Priya</h3>
-                  <p className="text-amber-600 mb-2">Founder & Home Chef</p>
+                  <h3 className="text-xl font-semibold text-amber-900">காயத்ரி பிரியா துரை</h3>
+                  <p className="text-amber-600 mb-2">நிறுவனர் மற்றும் வீட்டு சமையல்காரர்</p>
                   <p className="text-amber-700">
-                    Since 2009, Gayathri Priya has been sharing her love for Tamil cuisine, starting with a small mess in
-                    Chennai. Now operating from her Annanagar West home, she crafts dishes like Channa Pullav and Suttu
-                    Kozhupu Varuval using organic ingredients from her kitchen garden.
+                    2009 முதல் காயத்ரி பிரியா தமிழ் சமையலுக்கான தனது அன்பை சென்னை பகுதியில் ஒரு சிறிய மெஸுடன் துவங்கி பகிர்ந்து வருகின்றார். இப்போது அண்ணாநகர் வெஸ்ட் உள்ள தன் வீட்டிலிருந்து இயற்கை பொருட்களான வீட்டுத் தோட்டத்தில் இருந்து பெறப்பட்ட பொருட்களை பயன்படுத்தி கொண்டைக்கடலை புலாவும் சுட்டு கொழுப்பு வறுவலும் போன்ற உணவுகளை சமைக்கிறார்.
                   </p>
                 </div>
               </div>
@@ -142,7 +137,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Kitchen
+              எங்கள் சமையலறை
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -151,7 +146,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              A cozy home kitchen in Annanagar West, where tradition meets taste
+              அண்ணாநகர் வெஸ்டில் அமைந்த அமைதியான வீட்டு சமையலறை, பாரம்பரியமும் சுவையும் சேரும் இடம்
             </motion.p>
           </div>
 
@@ -188,29 +183,25 @@ export default function WhoWeAre() {
             </div>
             <div className="space-y-4 text-amber-800">
               <p>
-                Our small home kitchen in Annanagar West is the heart of Yatra’s Cooking Cave, where Gayathri Priya crafts
-                every dish with care.
+                அண்ணாநகர் வெஸ்டில் உள்ள எங்கள் சிறிய வீட்டு சமையலறை, யாத்ரா’ஸ் குக்கிங் கேவின் இதயம் ஆகும், அங்கே காயத்ரி பிரியா ஒவ்வொரு உணவையும் அக்கறையுடன் தயார் செய்கிறார்.
               </p>
               <p>
-                Using traditional Tamil cookware like clay pots and stone grinders, we preserve the authentic flavors of
-                dishes like Red Rice Puttu and Palaya Sooru.
+                மண் பாத்திரங்கள், கல் அரைக்கல்கள் போன்ற பாரம்பரிய தமிழ் சமையல் சாதனங்களைப் பயன்படுத்தி, செம்பரிசி புட்டு மற்றும் பழையசூறு போன்ற உணவுகளின் உண்மையான சுவையை நாங்கள் பாதுகாக்கின்றோம்.
               </p>
               <p>
-                Ingredients are sourced from our own kitchen garden and trusted local suppliers, ensuring organic, fresh
-                produce for healthy meals.
+                ஆரோக்கியமான உணவுகளுக்காக, இயற்கை மற்றும் تازா பொருட்களை உறுதிப்படுத்தி, எங்கள் வீட்டுத் தோட்டத்திலும் நம்பகமான உள்ளூர் சப்ளையர்களிடமிருந்தும் பொருட்கள் பெறப்படுகின்றன.
               </p>
               <p>
-                Every dish, from Carrot Halwa to Suttu Kozhupu Varuval, is prepared with love, maintaining hygiene and
-                quality in our cozy setup.
+                காரட் ஹல்வாவிலிருந்து சுட்டு கொழுப்பு வறுவலுக்கு வரை ஒவ்வொரு உணவும் அன்புடன், சுகாதாரமும் தரமும் காக்கப்பட்ட நமது அமைதியான சூழலில் தயாரிக்கப்படுகிறது.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-6">
                 <div className="bg-amber-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-amber-900 mb-2">Organic Ingredients</h4>
-                  <p className="text-sm">Fresh produce from our kitchen garden</p>
+                  <h4 className="font-semibold text-amber-900 mb-2">இயற்கை பொருட்கள்</h4>
+                  <p className="text-sm">எங்கள் வீட்டுத் தோட்டத்தில் இருந்து تازா பொருட்கள்</p>
                 </div>
                 <div className="bg-amber-50 p-4 rounded-lg">
-                  <h4 className="font-semibold text-amber-900 mb-2">Hygiene First</h4>
-                  <p className="text-sm">Strict cleanliness in our home kitchen</p>
+                  <h4 className="font-semibold text-amber-900 mb-2">சுகாதாரமே முதன்மை</h4>
+                  <p className="text-sm">எங்கள் வீட்டு சமையலறையில் முழுமையான சுத்தம்</p>
                 </div>
               </div>
             </div>
@@ -229,7 +220,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              What Our Customers Say
+              எங்கள் வாடிக்கையாளர்கள் கூறுவது
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -238,7 +229,7 @@ export default function WhoWeAre() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              Hear from those who’ve enjoyed Yatra’s homemade Tamil meals
+              யாத்ரா’ஸ் வீட்டு தமிழ் உணவுகளை ரசித்தவர்கள் கூறும் கருத்துகள்
             </motion.p>
           </div>
 
@@ -246,21 +237,21 @@ export default function WhoWeAre() {
             {[
               {
                 quote:
-                  "Gayathri’s Thatta Payiru Biriyani was a hit at our family gathering. The banana leaf setup made it feel like home!",
-                name: "Vijay & Lakshmi",
-                event: "Family Gathering",
+                  "காயத்ரி அவர்களின் தட்டைப் பயறு பிரியாணி எங்கள் குடும்பக் கூடுகையில் பெரும் வரவேற்பை பெற்றது. வாழை இலை பரிமாற்றம் வீட்டுப்போல் உணர்ச்சியை கொடுத்தது!",
+                name: "விஜய் & லட்சுமி",
+                event: "குடும்பக் கூடுதல்",
               },
               {
                 quote:
-                  "The tiffin service is perfect for our office lunches. Channa Pullav and Carrot Halwa are always a treat!",
-                name: "Priya Suresh",
-                event: "Office Tiffin",
+                  "எங்கள் அலுவலக மதிய உணவுகளுக்கு இந்த டிபன் சேவை சரியான தேர்வாகும். கொண்டைக்கடலை புலாவும் காரட் ஹல்வாவும் எப்போதும் இனிய பரிமாணமாக இருக்கும்!",
+                name: "பிரியா சுரேஷ்",
+                event: "அலுவலக டிபன்",
               },
               {
                 quote:
-                  "For our housewarming, Yatra’s Ragi Kalli and Suttu Kozhupu Varuval brought back childhood memories. Truly authentic!",
-                name: "Karthik Rajan",
-                event: "Housewarming",
+                  "எங்கள் வீட்டு விழாவிற்கு, யாத்ராவின் ராகி களி மற்றும் சுட்டு கொழுப்பு வறுவல் சிறுவயது நினைவுகளை மீண்டும் உயிர்ப்பித்தன. உண்மையான தமிழ் சுவை!",
+                name: "கார்த்திக் ராஜன்",
+                event: "வீட்டுவிழா",
               },
             ].map((testimonial, index) => (
               <motion.div

@@ -66,9 +66,7 @@ export default function Footer() {
               </h3>
             </div>
             <p className="text-turmeric-800">
-              Homemade Tamil cuisine by Gayathri Priya, offering authentic
-              tiffins and small-event catering from Annanagar West, Chennai,
-              with organic ingredients.
+              காயத்ரி பிரியா வழங்கும் வீட்டு தமிழ் சமையல், அண்ணாநகர் வெஸ்ட், சென்னை மூலம் இயற்கை பொருட்களுடன் உண்மையான டிபன் மற்றும் சிறு நிகழ்வு கேட்டரிங் சேவைகள்.
             </p>
             <div className="flex space-x-4">
               <motion.a
@@ -119,7 +117,7 @@ export default function Footer() {
                   >
                     <Link
                       to={link.path}
-                      className="text-sm hover:text-turmeric-800 hover:underline"
+                      className="text-sm text-turmeric-600 hover:text-turmeric-800 hover:underline"
                     >
                       {link.name}
                     </Link>
@@ -141,7 +139,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="h-5 w-5 mr-2 flex-shrink-0" />
-                <span className="text-turmeric-800">+91 94440 12345</span>
+                <span className="text-turmeric-800">+91 75501 77722 <br />+91 97106 09299</span>
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-2 flex-shrink-0" />

@@ -36,7 +36,7 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold text-white mb-4"
           >
-            Yatra’s Cooking Cave Services
+            யாத்ரா’ஸ் குக்கிங் கேவ் சேவைகள்
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -44,8 +44,7 @@ export default function Services() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg text-amber-50 max-w-2xl"
           >
-            Enjoy authentic Tamil homemade meals, crafted with organic
-            ingredients and delivered for your daily needs or special events.
+            இயற்கை பொருட்களுடன் தயாரிக்கப்பட்ட உண்மையான தமிழ் வீட்டு உணவுகளை, உங்கள் தினசரி தேவைகள் அல்லது சிறப்பு நிகழ்வுகளுக்காக சுவையுடன் அனுபவிக்கவும்.
           </motion.p>
         </div>
       </section>
@@ -60,7 +59,7 @@ export default function Services() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Offerings
+              எங்கள் சிறப்பு உணவுகள்
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -69,31 +68,30 @@ export default function Services() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              From daily tiffins to event catering, we bring the warmth of Tamil
-              home cooking to you.
+              தினசரி டிபன்கள் முதல் நிகழ்வுகளுக்கான கேட்டரிங் வரை, தமிழ் வீட்டு சமைப்பின் பாசத்தை உங்கள் வீட்டிற்கு கொண்டு சேர்க்கிறோம்.
             </motion.p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
-                title: "Daily Tiffin Service",
-                desc: "Freshly prepared Tamil tiffins like Red Rice Puttu, Palaya Sooru, and Channa Pullav, delivered to your home or office.",
+                title: "தினசரி டிபன் சேவை",
+                desc: "செம்பரிசி புட்டு, பழைய சோறு, மற்றும் கொண்டைக்கடலை புலாவ் போன்ற புதிதாக தயாரிக்கப்பட்ட தமிழ் டிபன்கள், உங்கள் வீடு அல்லது அலுவலகத்திற்கு நேரடியாக வழங்கப்படுகின்றன.",
                 image: Daily_Tiffin_Service_1,
               },
               {
-                title: "Event Catering",
-                desc: "Authentic Tamil meals for weddings, pujas, and gatherings, featuring Thatta Payiru Biriyani and banana leaf setups.",
+                title: "நிகழ்வுக்கான கேட்டரிங் சேவை",
+                desc: "மணநிகழ்வுகள், பூஜைகள் மற்றும் கூடுகைகள் ஆகியவற்றிற்காக தட்டைப் பயறு பிரியாணி மற்றும் வாழை இலை பரிமாற்றத்துடன் உண்மையான தமிழ் உணவுகள் வழங்கப்படுகின்றன.",
                 image: Daily_Tiffin_Service_2, // Placeholder for file-TZTzGhA1BJNQqhjqL3AUzx
               },
               {
-                title: "Non-Veg Specials",
-                desc: "Spicy Suttu Kozhupu Varuval, Ragi Kalli with Chicken Kulambu, and other non-veg delights for your cravings.",
+                title: "சிறப்பு நான்வெஜ் உணவுகள்",
+                desc: "காரமான சுட்டுக் கொழுப்பு வறுவல், சிக்கன் குழம்புடன் ராகி களி மற்றும் உங்கள் ஆசையைத் திருப்திப்படுத்தும் பிற நான்வெஜ் சுவைமிக்க உணவுகள்.",
                 image: Daily_Tiffin_Service_3,
               },
               {
-                title: "Sweets & Starters",
-                desc: "Homemade Carrot Halwa, Gulab Jamun, and spicy starters to complement your meals or events.",
+                title: "இனிப்புகள் மற்றும் தொடக்க உணவுகள்",
+                desc: "வீட்டில் தயாரிக்கப்பட்ட காரட் ஹல்வா, குலாப் ஜாமூன் மற்றும் காரமான ஸ்டார்டர்கள், உங்கள் உணவோடு அல்லது நிகழ்வுகளோடு சிறப்பாக ஒட்டும் வகையில் வழங்கப்படுகின்றன.",
                 image: Daily_Tiffin_Service_4,
               },
             ].map((service, index) => (
@@ -140,7 +138,7 @@ export default function Services() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Menu Packages
+              எங்கள் உணவுத் தொகுப்புகள்
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -149,47 +147,79 @@ export default function Services() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              Explore our curated Tamil meal packages, crafted with organic
-              ingredients for every occasion.
+              ஒவ்வொரு நிகழ்விற்கும் பொருத்தமான வகையில், இயற்கை பொருட்களுடன் சிறப்பாகத் தயாரிக்கப்பட்ட எங்கள் தமிழ் உணவுத் தொகுப்புகளை அறிந்துகொள்ளுங்கள்.
             </motion.p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Veg Tiffin Combo",
+                title: "சைவ டிபன் தொகுப்பு",
                 items: [
-                  "Thatta Payiru Biriyani or Channa Pullav",
-                  "Potato Fry or Brinjal Fry",
-                  "Cucumber/Carrot Raitha",
-                  "Pappad",
+                  "தட்டைப் பயறு பிரியாணி அல்லது கொண்டைக்கடலை புலாவ்",
+                  "உருளைக்கிழங்கு வறுவல் அல்லது கத்திரிக்காய் வறுவல்",
+                  "வெள்ளரிக்காய்/காரட் ரைதா",
+                  "அப்பளம்",
                 ],
                 price: "₹230–₹250 per 500ml box (min 5 orders)",
                 icon: Daily_Tiffin_Service_1,
               },
               {
-                title: "Non-Veg Event Package",
+                title: "நான்வெஜ் நிகழ்வு தொகுப்பு",
                 items: [
-                  "Palaya Sooru with Dry Fish Fry",
-                  "Suttu Kozhupu Varuval",
-                  "Chicken Kulambu or Meen Kulambu",
-                  "Banana (Red/Nenthiram)",
-                  "Carrot Halwa",
+                  "பழைய சோறு மற்றும் கருவாடு வறுவல்",
+                  "சுட்டு கொழுப்பு வறுவல்",
+                  "சிக்கன் குழம்பு அல்லது மீன் குழம்பு",
+                  "வாழைப்பழம் (சிவப்பு / நெந்திரம்)",
+                  "காரட் ஹல்வா",
                 ],
                 price: "₹260–₹300 per person",
                 icon: Daily_Tiffin_Service_2,
               },
               {
-                title: "Traditional Feast",
+                title: "பாரம்பரிய விருந்து",
                 items: [
-                  "Thatta Payiru Biriyani",
-                  "Ragi Kalli with Keerai Kadasal",
-                  "Red Rice Puttu with Brown Sugar",
-                  "Suttu Kozhupu Varuval",
-                  "Cucumber/Carrot Raitha",
-                  "Gulab Jamun",
+                  "தட்டைப் பயறு பிரியாணி",
+                  "ராகி களி மற்றும் கீரை கடசல்",
+                  "செம்பரிசி புட்டு மற்றும் கருப்புச்சீனி",
+                  "சுட்டு கொழுப்பு வறுவல்",
+                  "வெள்ளரிக்காய்/காரட் ரைதா",
+                  "குலாப் ஜாமூன்",
                 ],
                 price: "₹350 per person",
+                icon: Daily_Tiffin_Service_3,
+              },
+              {
+                title: "பரம்பரியக் கருவிகள்",
+                items: [
+                  "கல் அரைக்கல் மற்றும் மண் பாத்திரங்களில் சமைத்தல்",
+                  "இயற்கை மற்றும் ஆரோக்கிய உணவு சுவைகள்",
+                  "பாரம்பரிய சமையல் முறைகளை காப்பது",
+                  "சுத்தம் மற்றும் தரம் உறுதி",
+                ],
+                price: "₹260–₹300 per person",
+                icon: Daily_Tiffin_Service_1,
+              },
+              {
+                title: "ஆரோக்கியக் காய்கறிகள் மற்றும் பச்சைகள்",
+                items: [
+                  "இயற்கை தோட்டத்தில் இருந்து நேரடி பொருட்கள்",
+                  "ரசாயனங்கள் இல்லாத புதிதான காய்கறிகள்",
+                  "நாளாந்த உணவுக்கான மிகச் சிறந்த தேர்வு",
+                  "உடல் ஆரோக்கியத்திற்கு ஆதரவு",
+                ],
+                price: "₹260–₹300 per person",
+                icon: Daily_Tiffin_Service_2,
+              },
+              {
+                title: "சிறப்பு விருந்தினர்கள்",
+                items: [
+                  "வீட்டு சமையலின் அற்புத சுவைகளை அனுபவிக்க",
+                  "தனிப்பட்ட விருப்பங்களுக்கான மெனு தயார்",
+                  "நிகழ்வுகளுக்கான சிறப்பு கேட்டரிங்",
+                  "உன்னதமான சேவை மற்றும் தரம்",
+                ],
+                price: "₹260–₹300 per person",
                 icon: Daily_Tiffin_Service_3,
               },
             ].map((menu, index) => (
@@ -222,7 +252,7 @@ export default function Services() {
                   className="flex items-center space-x-2"
                 >
                   <Button className="w-full mt-4 bg-amber-600 hover:bg-amber-700 text-white">
-                    Book This Package
+                    இந்த தொகுப்பை முன்பதிவு செய்யவும்
                   </Button>
                 </Link>
               </motion.div>
@@ -236,7 +266,7 @@ export default function Services() {
               transition={{ duration: 0.5 }}
               className="text-amber-800 mb-4"
             >
-              Need a custom Tamil menu? We’ll craft it to your taste!
+              உங்களுக்கேற்ற தனிப்பட்ட தமிழ் மெனு வேண்டுமா? உங்கள் சுவைக்கு ஏற்ப நாங்கள் தயார் செய்து தருகிறோம்!
             </motion.p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -248,7 +278,7 @@ export default function Services() {
                   variant="outline"
                   className="text-amber-800 border-amber-300 hover:bg-amber-50"
                 >
-                  Request Custom Menu
+                 தனிப்பட்ட மெனுவுக்கான கோரிக்கை
                 </Button>
               </Link>
             </motion.div>
@@ -267,7 +297,7 @@ export default function Services() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              How It Works
+              இது எப்படி செயல்படுகிறது
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -276,7 +306,7 @@ export default function Services() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              Ordering your homemade Tamil meals is simple and seamless.
+              உங்கள் வீட்டு தமிழ் உணவுகளை ஆர்டர் செய்வது எளிதும் சீரியுமானும் ஆகும்.
             </motion.p>
           </div>
 
@@ -333,7 +363,7 @@ export default function Services() {
             transition={{ duration: 0.5 }}
             className="text-3xl font-bold mb-6"
           >
-            Bring Tamil Home Cooking to Your Table
+            தமிழ் வீட்டு சமையலை உங்கள் மேசைக்கு கொண்டு வாருங்கள்
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -341,8 +371,7 @@ export default function Services() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="max-w-2xl mx-auto mb-8 text-amber-100"
           >
-            From daily tiffins to grand feasts, Yatra’s Cooking Cave delivers
-            the authentic taste of Tamil Nadu.
+            தினசரி டிபன்களிலிருந்து பெரிய விருந்துகளுக்கு வரை, யாத்ரா’ஸ் குக்கிங் கேவ் தமிழ் நாட்டின் உண்மையான சுவையை வழங்குகிறது.
           </motion.p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <motion.div
@@ -368,7 +397,7 @@ export default function Services() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white text-white hover:bg-white/10"
+                  className="bg-white text-purple-800 hover:bg-turmeric-100"
                 >
                   Contact Us
                 </Button>

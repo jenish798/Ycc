@@ -26,7 +26,7 @@ export default function AboutUs() {
             transition={{ duration: 0.5 }}
             className="text-4xl md:text-5xl font-bold text-white mb-4"
           >
-            About Yatra's Cooking Cave
+            யாத்ரா’ஸ் குக்கிங் கேவ் பற்றி
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -34,7 +34,7 @@ export default function AboutUs() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg text-amber-50 max-w-2xl"
           >
-            Discover the passion behind our homemade Tamil meals, crafted with love and fresh, organic ingredients.
+            அன்புடன் மற்றும் புதிதும் இயற்கையுமான பொருட்களுடன் தயாரிக்கப்படும் எங்கள் வீட்டு தமிழ் உணவுகளுக்குப் பின்னுள்ள ஆவலை கண்டறியுங்கள்.
           </motion.p>
         </div>
       </section>
@@ -50,31 +50,25 @@ export default function AboutUs() {
                 transition={{ duration: 0.5 }}
                 className="text-3xl font-bold text-amber-900 mb-6"
               >
-                Our Story
+                எங்கள் கதை
               </motion.h2>
               <div className="w-24 h-1 bg-amber-600 mb-6"></div>
               <div className="space-y-4 text-amber-800">
                 <p>
-                  Yatra's Cooking Cave was founded by Gayathri Priya, a passionate home chef who began her culinary
-                  journey in 2009 with a small mess in Chennai. At just 23, she brought authentic Tamil flavors to her
-                  community, using traditional recipes and fresh ingredients.
+                  யாத்ரா’ஸ் குக்கிங் கேவ் என்றதை காயத்ரி பிரியா என்ற ஆர்வமிக்க வீட்டு சமையல் கலைஞர் நிறுவினார். 2009ஆம் ஆண்டு, சென்னை நகரில் ஒரு சிறிய மெஸுடன் தனது சமையல் பயணத்தை துவங்கினார். வயது இருபத்து மூன்று என்ற இளம் வயதிலேயே, பாரம்பரிய ரெசிபிக்களையும் تازா சிராப்பு பொருட்களையும் பயன்படுத்தி, உண்மையான தமிழ் சுவையை தன் சமூகத்திற்கு கொண்டு வந்தார்.
                 </p>
                 <p>
-                  After a hiatus due to family commitments, Gayathri revived her passion in 2021, cooking from her home in
-                  Annanagar West. Using organic vegetables from her own kitchen garden, she crafts wholesome dishes like
-                  Thatta Payiru Biriyani, Ragi Kalli, and Carrot Halwa, serving orders through Instagram and private
-                  platforms.
+                  குடும்ப பொறுப்புகள் காரணமாக ஏற்பட்ட இடைவேளைக்கு பிறகு, காயத்ரி தனது சமையல் ஆவலை 2021ஆம் ஆண்டு மீண்டும் உயிர்ப்பித்தார். சென்னை அண்ணாநகர் வெஸ்ட் பகுதியில் உள்ள தன் வீட்டிலிருந்தே சமைத்துத் தொடங்கினார். தன் வீட்டுத் தோட்டத்தில் வளர்க்கப்படும் இயற்கையான காய்கறிகளை பயன்படுத்தி, தட்டைப் பயறு பிரியாணி, ராகி களி, காரட் ஹல்வா போன்ற ஆரோக்கிய உணவுகளை தயார் செய்து, இன்ஸ்டாகிராம் மற்றும் தனியார் பிளாட்ஃபாரங்களை மூலமாக ஆர்டர்களை வழங்கி வருகிறார்.
                 </p>
                 <p>
-                  Today, Yatra’s Cooking Cave is on a mission to expand, bringing the warmth of homemade Tamil meals to
-                  more homes, offices, and events, ensuring health, taste, and satisfaction in every bite.
+                  இன்று, யாத்ரா’ஸ் குக்கிங் கேவ் தனது சேவையை விரிவுபடுத்தும் பணியில் உள்ளது. வீட்டுச் சமைப்பின் பாசத்தை அதிகமான வீடுகள், அலுவலகங்கள் மற்றும் நிகழ்வுகளுக்கு கொண்டு செல்லும் நோக்கத்துடன், ஒவ்வொரு لقுமிலும் ஆரோக்கியம், சுவை மற்றும் திருப்தியை உறுதி செய்யிறது.
                 </p>
               </div>
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <img
                 src={OurStory}
-                alt="Gayathri Priya Preparing Tamil Meals"
+                alt="Gayathri Priya Durai Preparing Tamil Meals"
                 className="object-cover w-full h-full"
               />
             </div>
@@ -92,7 +86,7 @@ export default function AboutUs() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Values
+              எங்கள் மதிப்பீடுகள்
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -101,28 +95,28 @@ export default function AboutUs() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              Guided by our love for authentic Tamil cuisine and commitment to healthy, homemade food.
+              உண்மையான தமிழ் உணவுக்கான எங்கள் அன்பும், ஆரோக்கியமான வீட்டு சமைப்புக்கான நெறிப்பாட்டும் எங்களை வழிநடத்துகின்றன.
             </motion.p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Fresh & Organic",
+                title: "புதிதும் இயற்கையுமானதும்",
                 description:
-                  "We use fresh, organic ingredients, many from our own kitchen garden, for healthy and flavorful meals.",
+                  "ஆரோக்கியமும் சுவையும் நிறைந்த உணவுகளுக்காக, எங்கள் வீட்டுத் தோட்டத்தில் இருந்து பெறப்படும் புதிதும் இயற்கையுமான பல்வேறு பொருட்களை நாம் பயன்படுத்துகிறோம்.",
                 icon: Fresh_Organic,
               },
               {
-                title: "Authentic Tamil Recipes",
+                title: "பாரம்பரிய தமிழ் சமையல் ரெசிபிகள்",
                 description:
-                  "Our dishes, from Thatta Payiru Biriyani to Red Rice Puttu, honor Tamil culinary traditions.",
+                  "தட்டைப் பயறு பிரியாணி முதல் செம்பரிசி புட்டு வரை எங்களுடைய உணவுகள் தமிழ் சமையல் பாரம்பரியத்தை மதித்து பின்பற்றுகின்றன.",
                 icon: Fresh_Organic,
               },
               {
-                title: "Customer Satisfaction",
+                title: "வாடிக்கையாளர் திருப்தி",
                 description:
-                  "Every meal is crafted with care to bring joy and the warmth of home to your table.",
+                  "ஒவ்வொரு உணவுமானும் மகிழ்ச்சியும் வீட்டுப் பாசமும் உங்கள் میزையில் சேரட்டும் என்பதற்காக அன்புடன் தயார் செய்யப்படுகிறது.",
                 icon: Fresh_Organic,
               },
             ].map((value, index) => (
@@ -156,7 +150,7 @@ export default function AboutUs() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Team
+             எங்கள் குழு
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -165,14 +159,14 @@ export default function AboutUs() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              The heart and soul behind Yatra’s Cooking Cave, crafting every dish with passion.
+              யாத்ரா’ஸ் குக்கிங் கேவின் இதயம் மற்றும் ஆத்மா, ஒவ்வொரு உணவையும் ஆவலுடன் உருவாக்கும் குழுவே!
             </motion.p>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                name: "Gayathri Priya",
+                name: "Gayathri Priya Durai",
                 role: "Founder & Head Chef",
                 image: "/images/gayathri-priya.jpg",
               },
@@ -210,7 +204,7 @@ export default function AboutUs() {
               transition={{ duration: 0.5 }}
               className="text-3xl font-bold text-amber-900"
             >
-              Our Journey
+              எங்கள் பயணம்
             </motion.h2>
             <div className="w-24 h-1 bg-amber-600 mx-auto mt-4 mb-6"></div>
             <motion.p
@@ -219,7 +213,7 @@ export default function AboutUs() {
               transition={{ duration: 0.5, delay: 0.2 }}
               className="max-w-2xl mx-auto text-amber-800"
             >
-              From a small mess in Chennai to a growing home kitchen, our story of passion and flavor.
+              சென்னையில் ஒரு சிறிய மெஸிலிருந்து வளர்ந்து வரும் வீட்டு சமையலறையின்வரை, இது எங்கள் சுவையும் ஆசையும் நிறைந்த பயணக் கதை.
             </motion.p>
           </div>
 
@@ -227,28 +221,28 @@ export default function AboutUs() {
             {[
               {
                 year: "2009",
-                title: "The Beginning",
-                desc: "Gayathri Priya started a small mess in Chennai, serving authentic Tamil meals to the community.",
+                title: "தொடக்கம்",
+                desc: "காயத்ரி பிரியா சென்னை பகுதியில் ஒரு சிறிய மெஸை துவங்கி, சமூகத்திற்கு உண்மையான தமிழ் உணவுகளை பரிமாறத் தொடங்கினார்.",
               },
               {
                 year: "2013",
-                title: "A Pause",
-                desc: "Took a break due to family commitments, but the passion for cooking remained strong.",
+                title: "ஒரு இடைவேளை",
+                desc: "குடும்ப பொறுப்புகளால் சிறிது இடைவேளை எடுத்தார், ஆனால் சமையல் பற்றிய ஆசை தொடர்ந்து வலிமையாகவே இருந்தது.",
               },
               {
                 year: "2021",
-                title: "Revival",
-                desc: "Restarted Yatra’s Cooking Cave from home, taking orders via Instagram and private platforms.",
+                title: "மீண்டும் துவக்கம்",
+                desc: "வீட்டிலிருந்து யாத்ரா’ஸ் குக்கிங் கேவ் மீண்டும் துவங்கி, இன்ஸ்டாகிராம் மற்றும் தனியார் பிளாட்ஃபாரங்களின் மூலம் ஆர்டர்களை ஏற்க ஆரம்பித்தார்.",
               },
               {
                 year: "2023",
-                title: "Expanding Reach",
-                desc: "Began serving tiffin services and catering for local events in Annanagar West.",
+                title: "எங்கள் சேவையை விரிவுபடுத்துவது",
+                desc: "அண்ணாநகர் வெஸ்ட் பகுதியில் டிபன் சேவைகள் மற்றும் உள்ளூர் நிகழ்வுகளுக்கான கேட்டரிங் சேவைகளை வழங்கத் தொடங்கினார்.",
               },
               {
                 year: "2025",
-                title: "Growing the Dream",
-                desc: "Launched the Yatra’s Cooking Cave app to bring homemade Tamil meals to more homes.",
+                title: "கனவுகளை நனவாக்கும் பயணம்",
+                desc: "அதிக வீடுகளுக்கு வீட்டு சமைப்பான தமிழ் உணவுகளை வழங்க, யாத்ரா’ஸ் குக்கிங் கேவ் செயலியை அறிமுகப்படுத்தினோம்.",
               },
             ].map((milestone, index) => (
               <motion.div

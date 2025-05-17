@@ -125,7 +125,7 @@ export default function ImageSlider({ images, autoPlayInterval = 5000 }: ImageSl
   className="text-4xl md:text-6xl font-bold text-white font-medium rounded-md px-6 py-3 relative overflow-hidden"
 >
   <span className="absolute inset-0 bg-turmeric-600 opacity-50 rounded-md -z-10"></span>
-  <span className="relative z-10 text-white">
+  <span className="relative z-10 text-4xl text-white">
     {images[currentIndex].title}
   </span>
 </motion.h1>

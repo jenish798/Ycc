@@ -40,30 +40,30 @@ export default function Home() {
     {
       src: slider_1,
       alt: "Yatra's Homemade Tamil Meal",
-      title: "Kongunattu White Biriyani",
+      title: "கொங்குநாட்டு வெள்ளை பிரியாணி",
       description:
-        "Taste the royal heritage of Kongu Nadu with our signature White Biryani — subtle spices, tender meat, and unforgettable flavor!",
+        "எங்கள் தனிச்சிறப்பான வெள்ளை பிரியாணியுடன் கொங்கு நாட்டின் அரிய பாரம்பரிய சுவையை அனுபவிக்கவும் — மென்மையான மசாலா, நறுந்தூள் இறைச்சி, மறக்க முடியாத சுவை!",
     },
     {
       src: slider_2,
       alt: "Banana Leaf Feast",
-      title: "Traditional Banana Leaf Meals",
+      title: "பாரம்பரிய வாழைஇலை உணவு",
       description:
-        "Enjoy Thatta Payiru Biriyani, Ragi Kalli, and more, served on banana leaves for an authentic Tamil dining experience.",
+        "தட்டைப் பயறு பிரியாணி, ராகி களி மற்றும் பலவகை உணவுகளை வாழை இலை மீது பரிமாறி, ஒரு பரம்பரிய தமிழ் உணவு அனுபவத்தை ரசிக்கவும்.",
     },
-    {
-      src: slider_3,
-      alt: "Tamil Sweets and Snacks",
-      title: "Kongunattu White Biriyani",
-      description:
-        "Taste the royal heritage of Kongu Nadu with our signature White Biryani — subtle spices, tender meat, and unforgettable flavor!",
-    },
+    // {
+    //   src: slider_3,
+    //   alt: "Tamil Sweets and Snacks",
+    //   title: "Kongunattu White Biriyani",
+    //   description:
+    //     "Taste the royal heritage of Kongu Nadu with our signature White Biryani — subtle spices, tender meat, and unforgettable flavor!",
+    // },
     {
       src: slider_4,
       alt: "Tamil Tiffin Service",
-      title: "Tiffin for Every Occasion",
+      title: "ஒவ்வொரு நிகழ்விற்கும் சிறந்த டிபன்",
       description:
-        "Pre-order our hygienic tiffin boxes with Palaya Sooru, Red Rice Puttu, or Channa Pullav for office or home gatherings.",
+        "பழையசூறு, செம்பரிசி புட்டு அல்லது கொண்டைக்கடலை புலாவுடன் எங்கள் சுகாதாரமான டிபன் பாக்ஸுகளை அலுவலகம் அல்லது வீட்டு கூடுகைகளுக்காக முன்பதிவு செய்யுங்கள்.",
     },
   ];
 
@@ -78,12 +78,11 @@ export default function Home() {
           <div className="text-center mb-12">
             <FadeIn>
               <h2 className="text-3xl font-bold text-purple-800">
-                Yatra’s Signature Offerings
+               யாத்ராவின் தனிச்சிறப்பான உணவுகள்
               </h2>
               <div className="w-24 h-1 bg-turmeric-500 mx-auto mt-4"></div>
               <p className="mt-4 text-turmeric-800 max-w-2xl mx-auto">
-                From hearty biriyanis to wholesome puttu, we bring the soul of
-                Tamil home cooking to your table.
+               உணர்வுபூர்வமான பிரியாணி முதல் ஊட்டச்சத்து மிகுந்த புட்டு வரை, தமிழ் வீட்டு சமையலின் ஆன்மாவை உங்கள் டேபிளில் கொண்டு வருகின்றோம்.
               </p>
             </FadeIn>
           </div>
@@ -91,28 +90,28 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
               {
-                title: "Kongunattu Arise paruppu Satham",
+                title: "கொங்குநாட்டு அரிசி பருப்பு சாதம்",
                 image: Category_1,
-                desc: "A humble yet hearty dish from the Kongu region — Arisi Paruppu Sadham blends rice, dal, and spices into pure comfort, Simple, soulful, and packed with traditional flavor in every bite.",
+                desc: "கொங்கு பகுதியின் எளிமையான ஆனால் உணர்வுப்பூர்வமான உணவு — அரிசி பருப்பு சாதம் அரிசி, பருப்பு மற்றும் மசாலாவை சேர்த்து சுவையான ஊட்டச்சத்து நிறைந்த உணவாக மாறுகிறது. எளிமையாகவும், உள்ளம் கொள்ளத்தக்கவையாகவும், ஒவ்வொரு முனைவிலும் பாரம்பரிய சுவையை கொண்டுள்ளது.",
                 icon: <Utensils className="h-5 w-5 text-turmeric-600" />,
                 popular: true,
               },
               {
-                title: "Kongunattu White Biriyani",
+                title: "கொங்குநாட்டு வெள்ளை பிரியாணி",
                 image: Category_2,
-                desc: "Taste the royal heritage of Kongu Nadu with our signature White Biryani — subtle spices, tender meat, and unforgettable flavor!",
+                desc: "எங்கள் தனிச்சிறப்பான வெள்ளை பிரியாணியுடன் கொங்கு நாட்டின் அரசக்குடி பாரம்பரிய சுவையை அனுபவிக்கவும் — மென்மையான மசாலா, நன்கு வெந்த இறைச்சி, என்றும் நினைவில் நிலைக்கும் சுவை!",
                 icon: <Gift className="h-5 w-5 text-turmeric-600" />,
               },
               {
-                title: "Sevappu Arise Puttu",
+                title: "சிவப்பு அரிசி புட்டு",
                 image: Category_3,
-                desc: "Sevappu Arisi Puttu is a wholesome and earthy delight made from red rice, gently steamed to perfection A healthy South Indian breakfast rooted in tradition and rich in taste.",
+                desc: "சிவப்பு அரிசி புட்டு என்பது செம்பரிசியால் தயாரிக்கப்படும் ஆரோக்கியமான மற்றும் இயற்கை நிறைந்த உணவு. மெதுவாக இடுப்பட்டி வேகவைத்து தயாரிக்கப்படும் இந்த டிஷ், பாரம்பரியத்தில் வேரூன்றிய, சுவையில் நிறைந்த தென்னிந்திய காலை உணவாகும்.",
                 icon: <Calendar className="h-5 w-5 text-turmeric-600" />,
               },
               {
-                title: "Kongunattu Sundal Sooru",
+                title: "கொங்குநாட்டு சுண்டல் சோறு",
                 image: Category_4,
-                desc: "Kongunattu Sundal Sooru is a protein-rich rice dish made with flavorful legumes and rustic spices A traditional Kongu Nadu favorite that’s both nourishing and deeply satisfying.",
+                desc: "கொங்குநாட்டு சுண்டல் சோறு என்பது புரதம் நிறைந்த அருமையான சாதம். சுவையான பற்பல பருப்புகள் மற்றும் நாட்டுச்சுவை மசாலாவுடன் தயாரிக்கப்படுகிறது. இது கொங்கு நாட்டின் பாரம்பரியமான, ஆரோக்கியம் மிக்க மற்றும் திருப்தி தரும் உணவுப் பொருளாகும்.",
                 icon: <Users className="h-5 w-5 text-turmeric-600" />,
               },
             ].map((service, index) => (
@@ -148,12 +147,12 @@ export default function Home() {
                         damping: 10,
                       }}
                     >
-                      <Button
+                      {/* <Button
                         variant="link"
                         className="mt-4 p-0 text-purple-600 hover:text-purple-800"
                       >
                         Learn more <ChevronRight className="h-4 w-4 ml-1" />
-                      </Button>
+                      </Button> */}
                     </motion.div>
                   </CardContent>
                 </Card>
@@ -184,11 +183,10 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <FadeIn>
-              <h2 className="text-3xl font-bold text-purple-800">Our Story</h2>
+              <h2 className="text-3xl font-bold text-purple-800">எங்கள் கதை</h2>
               <div className="w-24 h-1 bg-turmeric-500 mx-auto mt-4"></div>
               <p className="mt-4 text-turmeric-800 max-w-2xl mx-auto">
-                A journey of passion and flavor, bringing homemade Tamil cuisine
-                to your home.
+               ஆசையும் சுவையும் நிறைந்த ஒரு பயணம், வீட்டு சமைப்பான தமிழ் உணவுகளை உங்கள் வீட்டுக்கு கொண்டு சேர்க்கும் முயற்சி.
               </p>
             </FadeIn>
           </div>
@@ -202,14 +200,11 @@ export default function Home() {
             </FadeIn>
             <FadeIn direction="right">
               <p className="text-turmeric-800">
-                Founded by Gayathri Priya, Yatra’s Cooking Cave began as a small
-                mess in 2009, serving authentic Tamil dishes with love. After a
-                brief hiatus, Gayathri revived her passion in 2021, cooking from
-                her home in Annanagar West, Chennai. Using fresh, organic
-                ingredients—many from our own kitchen garden—we craft wholesome
-                meals like Thatta Payiru Biriyani, Ragi Kalli, and Carrot Halwa.
-                Our mission is to bring the warmth of homemade food to every
-                table, ensuring health, taste, and satisfaction.
+                காயத்ரி பிரியா அவர்கள் நிறுவிய யாத்ரா’ஸ் குக்கிங் கேவ், 2009ஆம் ஆண்டு ஒரு சிறிய மெஸாக துவங்கி, உண்மையான தமிழ் உணவுகளை அன்போடு பரிமாறியது. சில வருட இடைவெளிக்குப் பிறகு, 2021ல் காயத்ரி அவர்கள் தன் ஆசையை மீண்டும் உயிர்ப்பித்தார், சென்னை அண்ணாநகர் வெஸ்ட் பகுதியில் உள்ள தன் வீட்டிலிருந்து சமைத்துத் தொடங்கினார்.
+
+எங்களின் வீட்டுத் தோட்டத்தில் பயிரிடப்படும் ஆரோக்கியமான இயற்கை பொருட்களைக் கொண்டு, தட்டைப் பயறு பிரியாணி, ராகி களி, காரட் ஹல்வா போன்ற ஊட்டச்சத்து மிகுந்த உணவுகளை சமைக்கிறோம்.
+
+எங்கள் நோக்கம் — ஒவ்வொரு வீட்டிலும் உண்டிய பாசமான வீட்டு சமைப்பை கொண்டு சென்று, ஆரோக்கியம், சுவை மற்றும் திருப்தியை வழங்குவதே.
               </p>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -234,12 +229,11 @@ export default function Home() {
           <div className="text-center mb-12">
             <FadeIn>
               <h2 className="text-3xl font-bold text-purple-800">
-                How to Order
+                ஆர்டர் செய்வது எப்படி?
               </h2>
               <div className="w-24 h-1 bg-turmeric-500 mx-auto mt-4"></div>
               <p className="mt-4 text-turmeric-800 max-w-2xl mx-auto">
-                Simple steps to enjoy Yatra’s homemade Tamil meals at your
-                doorstep!
+                யாத்ராவின் வீட்டு சமைப்பான தமிழ் உணவுகளை உங்கள் வீட்டில் ருசிக்க சில எளிய படிகள்!
               </p>
             </FadeIn>
           </div>
@@ -312,11 +306,10 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center relative z-10">
           <FadeIn>
             <h2 className="text-3xl font-bold mb-6">
-              Taste the Love of Home Cooking
+              வீட்டு சமைப்பின் அன்பை சுவையுங்கள்
             </h2>
             <p className="max-w-2xl mx-auto mb-8 text-turmeric-100">
-              Order your favorite Tamil dishes from Yatra’s Cooking Cave and
-              enjoy wholesome, homemade meals today!
+              யாத்ரா’ஸ் குக்கிங் கேவிலிருந்து உங்கள் விருப்பமான தமிழ் உணவுகளை இன்று ஆர்டர் செய்து, ஆரோக்கியமான வீட்டு சமைப்பை அனுபவியுங்கள்!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.div
